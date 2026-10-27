@@ -1,0 +1,19 @@
+# .gitignore for AI Research Agent
+.env
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+*.pyc
+
+# Memory data (generated at runtime)
+memory/data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
